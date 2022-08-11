@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)) ,url("../g9.jpg");
+    background-size: 100%;
+    position: relative;
+}
+
+.container{
+    padding-top: 10%;
+}
+
+.card{
+    box-shadow: 0 4px 8px 10px rgba(0,0,0,0.2), 0 6px 20px 10px rgba(0,0,0,0.2)!important;
+}
+.card-header h1{
+    padding: 18px;
+}
+
+.timer{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0);
+    margin: 10px auto;
+    color: white;
+}
+.progress {
+    margin: 10px;
+    width: 700px;
+}
+.pos{
+    text-align: center  ;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.9) !important;
+    padding-top: 50vh;
+    display: none;
+}
